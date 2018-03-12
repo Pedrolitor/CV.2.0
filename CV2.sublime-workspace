@@ -8,22 +8,39 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>CV2</title>\n  <meta name=\"description\" content=\"CV 2.0\">\n  <meta name=\"author\" content=\"Pedrolitor\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"main.css\">\n  <link href=\"https://fonts.googleapis.com/css?family=Montserrat\" rel=\"stylesheet\">\n  <!--[if lt IE 9]>\n  <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n</head>\n<body>\n\t<div id=\"header\">\n\t\t<div class=\"center header1 bg-color2\">\n\t\t\t<div id=\"profilPicture\">\n\t\t\t\t\n\t\t\t\t<img src=\"PhotoID.jpeg\" alt=\"Profil Picture\">\n\t\t\t</div>\n\t\t\t<h1 class=\"caps\">Pierre Dumergue</h1>\n\t\t</div>\n\t\t<div class=\"center header2 bg-color5\">\n\t\t\t<h3 class=\"italic\">Curriculum Vitae</h3>\n\t\t</div>\n\t\t<div class=\"center header3 bg-color1\">\n\t\t\t<h2 class=\"caps\">Candidature Simplon - PROJET CV HTML/CSS</h2>\n\t\t</div>\n\t</div>\n\n\t<div id=\"nav\">\n\t\t<ul>\n\t\t  <li><a class=\"active\" href=\"#home\">Home</a></li>\n\t\t  <li><a href=\"#work\">Expérience Professionnelle</a></li>\n\t\t  <li><a href=\"#school\">Formation</a></li>\n\t\t  <li><a href=\"#skills\">Compétences</a></li>\n\t\t  <li><a href=\"#hobbies\">Centres d'intérêts</a></li>\n\t\t</ul>\n\t</div>\n\t<div id=\"main\">\n\t\t<a href=\"http://www.freepik.com\">Designed by Sketchepedia / Freepik</a>\n\t</div>\n\t\n \n\t<!-- run javascript at the end -->\n  <script src=\"js/scripts.js\"></script>\n</body>\n</html>",
 			"file": "CV2.html",
-			"file_size": 1404,
-			"file_write_time": 131652608063385197,
 			"settings":
 			{
-				"buffer_size": 1359,
+				"buffer_size": 1353,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "main.css",
+			"contents": "Package Control Messages\n========================\n\nSublimeGit\n----------\n\n  Welcome to SublimeGit\n  =====================\n  \n  SublimeGit is a full-featured, commercial plugin for integrating\n  git into Sublime Text 2 and 3. To read more about it, or purchase\n  a license, go to https://sublimegit.net.\n  \n  \n  Quickstart\n  ----------\n  Make sure to restart Sublime Text after installing SublimeGit.\n  \n  Run the command \"Git: Status\" to open the status view. This\n  is where you'll spend most of the time when interacting with\n  git through SublimeGit. From here you can stage/unstage files,\n  manage stashes, view diffs, and initiate a commit.\n  \n  Other commands are available in the command palette (cmd+shift+p\n  on OS X, ctrl+shift+p on Windows/Linux). They are all prefixed\n  with \"Git:\" and most of them do exactly what it says on the label.\n  \n  \n  Tutorial\n  --------\n  For the full tutorial, go to:\n  \n      https://docs.sublimegit.net/tutorial.html\n  \n  \n  Trouble Getting Started?\n  ------------------------\n  If you are on windows, or don't usually use git from the command\n  line, there might be some things you'll need to set up. Go here\n  for instructions on how to get set up:\n  \n      https://docs.sublimegit.net/quickstart.html\n  \n  \n  Issues, Questions or Bugs?\n  --------------------------\n  Send a mail to support@sublimegit.net, or report it in the issue\n  tracker:\n  \n      https://github.com/SublimeGit/SublimeGit/issues\n",
+			"settings":
+			{
+				"buffer_size": 1447,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "cv2.css",
 			"settings":
 			{
 				"buffer_size": 2243,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Pierre Dumergue | Resume</title>\n\t<meta name=\"description\" content=\"CV 2.0\">\n  \t<meta name=\"author\" content=\"Pedrolitor\">\n  \t<link rel=\"stylesheet\" type=\"text/css\" href=\"cv3.css\">\n\n</head>\n<body>\n\t\n</body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 285,
 				"line_ending": "Windows"
 			}
 		}
@@ -36,9 +53,21 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
+		"last_filter": "pac",
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"Snippet",
+				"Snippet: Lorem ipsum"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Add Repository"
@@ -48,13 +77,19 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 444.0
+		"width": 412.0
 	},
 	"console":
 	{
 		"height": 130.0,
 		"history":
 		[
+			"git status",
+			"git",
+			"ggit",
+			"ls",
+			"git init",
+			"git status",
 			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -78,7 +113,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -92,6 +127,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\t</div>",
+			"CV",
+			"Profil",
+			"header1",
+			"class",
+			"header1",
 			"\t\t\t<"
 		],
 		"highlight": true,
@@ -116,7 +157,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -125,23 +166,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1359,
+						"buffer_size": 1353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								514,
-								514
-							],
-							[
-								520,
-								520
-							],
-							[
-								653,
-								653
+								552,
+								552
 							]
 						],
 						"settings":
@@ -149,16 +182,46 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1447,
+								1447
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "main.css",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "cv2.css",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2243,
@@ -168,8 +231,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1115,
+								1115
 							]
 						],
 						"settings":
@@ -177,10 +240,38 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
+						"translation.y": 511.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Pierre\\Documents\\HTML_CSS\\CV2",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -188,11 +279,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -225,7 +316,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
