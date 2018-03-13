@@ -5,7 +5,7 @@
 
 /* Reset */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
-	line-height: 1.5;
+	line-height: 1.0;
 	margin: 0;
 }
 
@@ -19,7 +19,7 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px; 	/* 1em=16px et 1rem=16px */
 	color: black;
-	
+	background-color: #eee;
 	letter-spacing: 0.01em;
 	font-weight: 300;
 }
@@ -35,12 +35,12 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 300;
 }
 
-h1 { font-size: 2.5em; line-height: 1.5;}
-h2 { font-size: 2em; line-height: 1.5; }
-h3 { font-size: 1.5em; line-height: 1.5; }
-h4 { font-size: 1.2em; line-height: 1.5; }
-h5 { font-size: 1em; line-height: 1.5; }
-h6 { font-size: 0.8em; line-height: 1.5;}
+h1 { font-size: 2.5em; line-height: 1.0;}
+h2 { font-size: 2em; line-height: 1.0; }
+h3 { font-size: 1.5em; line-height: 1.0; }
+h4 { font-size: 1.2em; line-height: 1.0; }
+h5 { font-size: 1em; line-height: 1.0; }
+h6 { font-size: 0.8em; line-height: 1.0;}
 
 p {
 	padding: 0;
