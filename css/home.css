@@ -13,7 +13,7 @@
 .header {
 
 }
-.banner-bg{
+.header__bg{
 	width: 100%;
 	height: 50vh;
 	background: url('../images/topography-light-grey.svg') center center fixed repeat, linear-gradient(10deg, #9199B5, #FDD8BC);
@@ -28,14 +28,13 @@
 	text-align: center;
 }
 
-.banner-img 
-{
+.banner__id {
 	height: 10em;
 	width: 10em;
 	margin: 0 auto 15px;
 }
 
-.banner-img img
+.banner__id__photo
 {
 	height: 100%;
 	width: 100%;
@@ -43,7 +42,7 @@
 
 }
 
-.banner-title {
+.banner__title {
 	font-weight: 100;
 	color: #363636;
 }
@@ -69,7 +68,7 @@
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
-.section .title {
+.section__title {
 	text-align: center;
 	font-weight: 100;
 	height: 80px;
@@ -89,49 +88,44 @@
 	text-align: center;
 }
 
-.icon img {
+.icon--section {
+	margin-bottom: 20px;
+}
+
+.icon__logo {
 	display: block;
 	width: 100%;
 	height:100%;
 	padding: 10px;
-
-}
-
-.section-icon {
-	margin-bottom: 20px;
 }
 
 /* About section*/
-.section.about {
+.section--about {
 	
 }
 
-.section.about ul.about-list {
-}
-
-.section.about ul.about-list>li {
+.section__table__row {
 	padding : 15px 0;
 	border-bottom: dashed 1px rgba(0, 0, 0, 0.2);
 }
 
-.section.about ul.about-list>li:first-child {
+.section__table__row:first-child {
 	padding-top: 0;
 }
 
-.section.about ul.about-list>li:last-child {
+.section__table__row:last-child {
 	padding-bottom: 0;
 	border-bottom: none;
 }
 
-.section.about .inline-list li.list-data {
-	float: right;
-}
-
-.section.about .inline-list li.list-attribute {
+.section__table__attribute {
 	padding: 0.2em 0.4em;
 	background: #033F63;
 	color: #fff;
+}
 
+.section__table__data {
+	float: right;
 }
 
 /* Work section */
