@@ -123,14 +123,6 @@
 	border-bottom: none;
 }
 
-.section.about ul.inline-list {
-
-}
-
-.section.about ul.inline-list>li {
-	display: inline;
-}
-
 .section.about .inline-list li.list-data {
 	float: right;
 }
@@ -145,6 +137,8 @@
 /* Work section */
 
 .section .work {}
+
+
 
 
 

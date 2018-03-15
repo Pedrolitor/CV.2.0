@@ -78,6 +78,10 @@ li {
 	margin-bottom: 0px;
 }
 
+.inline-list li {
+	display: inline-block;
+}
+
 /* Text Formating */
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
